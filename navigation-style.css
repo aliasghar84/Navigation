@@ -62,6 +62,7 @@ body {
 .home {
     display: none;
 }
+
 .home:target {
   display: block;
 }
@@ -69,10 +70,6 @@ body {
 .services {
     display: none;
 }
-.services:target {
-  display: block;
-}
-
 .services:target {
   display: block;
 }
