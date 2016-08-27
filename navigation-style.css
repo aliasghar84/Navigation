@@ -60,7 +60,7 @@ body {
 /** Start of Navigation content to show on Target **/
 
 .home {
-    display: none;
+    display: block;
 }
 .home:target {
   display: block;
@@ -69,6 +69,10 @@ body {
 .services {
     display: none;
 }
+.services:target {
+  display: block;
+}
+
 .services:target {
   display: block;
 }
